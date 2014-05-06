@@ -155,14 +155,16 @@ footer p {
 }
 
 .btn-framez:hover {
-	background: transparent;
+	background-color: #fff;
 	color: #226fbe;
 }
 
-a {
+.btn-framez a {
 	text-decoration: none;
 	color: #fff;
 }
+
+
 
 a:hover {
 	color: #226fbe;
