@@ -54,6 +54,7 @@ body {
 	color:#ecf0f1; 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
+    font-size: 100%;
 
 }
 
@@ -165,4 +166,12 @@ a {
 
 a:hover {
 	color: #226fbe;
+}
+
+
+@media(max-width: 700px) {
+  h1 {
+    font-size: 55px;
+   }
+
 }
