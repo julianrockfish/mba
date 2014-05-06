@@ -100,9 +100,14 @@ ul {
 }
 
 ul li {
-	font-size: 15px;
+	font-size: 20px;
 	color: #0B0974; 
-	line-height: 22px;
+	line-height: 25px;
+
+}
+
+ul li img {
+	vertical-align: middle;
 }
 
 .schedule {
