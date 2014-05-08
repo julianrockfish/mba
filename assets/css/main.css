@@ -50,14 +50,12 @@ table {
 }
 
 body {
-	background-color:white;
+	background: url('../images/cream_dust_@2X.png') repeat;
 	color:#ecf0f1; 
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
     font-size: 100%;
-
 }
-
 
 
 header {
@@ -109,12 +107,20 @@ ul li {
 
 }
 
+ul li.expired {
+	color: gray;
+}
+
+/*ul li.expired button {
+	visibility: hidden;
+}*/
+
 ul li img {
 	vertical-align: middle;
 }
 
 .schedule {
-	background-color: white;
+	/*background-color: white;*/
 	max-width: 100%;
 
 }
@@ -124,11 +130,15 @@ ul li img {
 	margin: 0 auto;
 }
 
-footer p {
+footer  {
 	color:#0B0974;  
 	text-align: center;
 	margin-top: 220px;
 	font-size: 18px;
+}
+
+footer button {
+	margin-bottom: 20px;
 }
 
 /*li:hover {
@@ -177,3 +187,9 @@ a:hover {
    }
 
 }
+
+footer img {
+	margin: 20px 20px 20px 2px;
+
+}  
+
